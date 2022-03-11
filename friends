@@ -5,3 +5,10 @@ ages.each do |age|
     p age
   end
 end
+p "------"
+
+ages.each do |age|
+  if age < 60
+    p age
+  end
+end
